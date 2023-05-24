@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandía Shop</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="imagenes/logo sandia shop.png" alt="logo">
+      </div>
+      <nav>
+          <a href="#" class="nav-link">Inicio</a>
+          <a href="#" class="nav-link">Mujer</a>
+          <a href="#" class="nav-link">Hombre</a>
+          <a href="#" class="nav-link">Contacto</a>
+      </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <img src="imagenes/banner principal.png" alt="banner principal" width="1500px" height="550px">
+          </div>
+          <div class="contenedorhym">
+            <img src="imagenes/img mujer.png" width="600px" height="400px">
+            <img src="imagenes/img hombre.png" width="600px" height="400px">
+          </div>
+          <section class="textovideo">
+        <h1 >¿Quienes Somos?</h1>
+        
+            <p>Sandía Shop es una tienda de ropa personal, atendemos a todo tipo de mujeres<br>y hombres
+        que buscan un estilismo unico y diferenciado para el día a día y<br> los momentos más especiales</p>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/B5ElvV5cyFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+      <section class="formulario">
+        <form action="procesar.php" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre"><br>
+      
+          <label for="correo">Teléfono:</label>
+          <input type="email" id="correo" name="correo"><br>
+      
+          <label for="contrasena">E-mail:</label>
+          <input type="password" id="contrasena" name="contrasena"><br>
+      
+          <input type="submit" value="Enviar">
+        </form>
+        <img class="foto contacto" src="imagenes/mujer contacto.png" width="550px" height="400px">
+      </section>
+    </main>
+    <footer>
+      <div class="contenedorfooter">
+        <div class="row">
+          <div class="whatsapp">
+            <p>Número de WhatsApp: <a href="https://wa.me/3228204930">3228204930</a></p>
+          </div>
+          <div class="direccion">
+            <p>Dirección: calle 8#11-33</p>
+          </div>
+          <div class="email">
+            <p>Correo electrónico: <a href="mailto:sandiashop@gmail.com">sandiashop@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
